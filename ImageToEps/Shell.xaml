@@ -4,7 +4,7 @@
         xmlns:controls="clr-namespace:ImageToEps.Controls"
         xmlns:regions="http://www.codeplex.com/CompositeWPF"
         xmlns:inf="clr-namespace:ITE.Infrastructure;assembly=ITE.Infrastructure"
-        Title="Image to eps" Height="350" Width="525">
+        Title="Image to eps" Height="350" Width="525" Icon="Resources/icon.ico">
     <Window.Background>
         <ImageBrush ImageSource="Resources\background.png"  Stretch="UniformToFill"/>
     </Window.Background>

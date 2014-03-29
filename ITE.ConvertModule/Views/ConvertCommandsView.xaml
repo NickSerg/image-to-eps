@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <StackPanel>
-        <Button Command="{Binding SaveCommand}" Template="{StaticResource CommandButtonTemplate}" Cursor="Hand"
+        <Button Command="{Binding ConvertCommand}" Template="{StaticResource CommandButtonTemplate}" Cursor="Hand"
                 Margin="5 0 0 0">
             Конвертировать
         </Button>

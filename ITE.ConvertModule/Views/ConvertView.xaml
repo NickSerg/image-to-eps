@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-        <ListView ItemsSource="{Binding ImageFiles}" AlternationCount="2" IsSynchronizedWithCurrentItem="True" MinHeight="150"
+        <ListView ItemsSource="{Binding ProcessedFiles}" AlternationCount="2" IsSynchronizedWithCurrentItem="True" MinHeight="150"
                   infrastructure:DragDrop.DropCommand="{Binding ProcessFilesCommand}"
                   infrastructure:DragDrop.AllowableDataFormats="{Binding AllowableDataFormats}">
             <ListView.View>

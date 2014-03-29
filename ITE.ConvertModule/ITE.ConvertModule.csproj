@@ -67,6 +67,7 @@
     <Compile Include="Module.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ConvertService.cs" />
+    <Compile Include="ViewModels\ConvertCommandsViewModel.cs" />
     <Compile Include="ViewModels\ConvertViewModel.cs" />
     <Compile Include="Views\ConvertCommandsView.xaml.cs">
       <DependentUpon>ConvertCommandsView.xaml</DependentUpon>
